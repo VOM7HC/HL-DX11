@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="HL-DirectX.cpp" />
+    <ClCompile Include="GameClock.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="GameException.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{b5bf6d13-663e-4a47-a7e0-f42308157551}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="GameException.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
