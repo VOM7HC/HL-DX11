@@ -34,8 +34,6 @@ namespace Helper
 
         static const UINT DefaultScreenWidth;
         static const UINT DefaultScreenHeight;
-        static const UINT DefaultFrameRate;
-        static const UINT DefaultMultiSamplingCount;
 
         HINSTANCE mInstance;
         std::wstring mWindowClass;
