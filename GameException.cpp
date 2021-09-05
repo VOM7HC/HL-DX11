@@ -1,6 +1,7 @@
 #include "GameException.hpp"
 
-Helper::GameException::GameException(const char* const& message, HRESULT hr)
+Helper::GameException::GameException(const char* const& message, HRESULT hr) : exception(message)
+                                                                             , mHR(hr)
 {
 }
 

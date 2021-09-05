@@ -1,6 +1,9 @@
 #include "GameClock.hpp"
 
-Helper::GameClock::GameClock() : mStartTime(), mCurrentTime(), mLastTime(), mFrequency()
+Helper::GameClock::GameClock() : mStartTime()
+                               , mCurrentTime()
+                               , mLastTime()
+                               , mFrequency()
 {
     mFrequency = GetFrequency();
     Reset();

@@ -1,6 +1,7 @@
 #include "GameTime.hpp"
 
-Helper::GameTime::GameTime() : mTotalGameTime(0.0), mElapsedGameTime(0.0)
+Helper::GameTime::GameTime() : mTotalGameTime(0.0)
+                             , mElapsedGameTime(0.0)
 {
 }
 
